@@ -1,0 +1,245 @@
+/*======================Global Styles======================*/
+
+
+body {
+    margin: 0 auto;
+    font-family: 'Merienda', cursive;
+}
+/*================Nav Styles==================*/
+.nav-bar {
+    height: 100px;
+    width: 100%;
+    background-color: #76bd91; 
+    top: 0;
+}
+
+html { 
+  background: url(../img/hero.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.logo {
+    height: 100px;
+    width: 160px;
+}
+
+.nav-list {
+    float: right;
+    margin-right: 40%;
+}
+
+.list-item {
+    list-style: none;
+    background-color: #6f2b40; 
+    height: 100px;
+    width: 100px;
+    float: left;
+    border: 2px solid black;
+    border-radius: 3px;
+    margin-right: 10px;
+    text-align: center;
+
+}
+
+.list-item:hover{
+    background-color: #000000;
+}
+
+.list-item a {
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 38px;
+    color: white;
+    
+}
+
+.hero::after {
+   content: "";
+   clear: both;
+   display: table;
+}
+
+.three {
+   float: left;
+   width: 624px;
+   border-radius: 8px;
+   padding: 5px;
+}
+ 
+.kuku, .middi, .riggi {
+    width: 600px;
+    
+}
+ 
+.kuku {
+    padding-top: 35px;
+    padding-left: 2%;
+}
+
+.middi {
+    padding-left: 5px;
+}
+
+/*.hero-text-box {*/
+/*    background-color: #CEBE84;*/
+/*    width: 90px;*/
+/*    display: inline-table;*/
+/*    margin-top: 18%;*/
+/*    margin-left: 45%;*/
+/*}*/
+
+.hero-text {
+    text-align: center;
+    font-family: 'Noto Serif', serif;
+    float: left;
+    padding-left: 42%;
+}
+
+.container {
+    width: 100%;
+    float: left;
+}
+
+.text, .section-img {
+    width: 45%;
+    border: 10px solid transparent;
+    border-image: url(../img/border.png) 30 stretch;
+    float: left;
+    margin-left: 20px;
+}
+
+.text {
+    text-align: justify;
+    padding: 20px;
+}
+
+.section-img {
+    margin-top: 16px;
+    height: 846px;
+}
+
+.footer {
+    height: 100px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.6); 
+    clear: both; 
+    bottom: 0;
+    opacity: 1;
+}
+
+.copyright {
+    float: right;
+    padding-right: 160px;
+    color: white;
+}
+
+.social {
+    width: 380px;
+    height: 70px;
+    float: left;
+    display: inline-block;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 25px;
+    margin-left: 170px;
+}
+
+.container2 {
+    width: 380px;
+    height: 70px;
+    float: left;
+    display: inline-block;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 25px;
+    margin-left: 170px;
+}
+
+.button {
+    background-color: #bb7e01; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.fab {
+    font-size: 50px;
+}
+
+.fa-facebook {
+    color: #4867AA;
+}
+
+.fa-slack {
+    color: #000000;
+}
+
+.fa-steam-square {
+    color: grey;
+}
+
+
+/*homework is to give the headers background and start work oon your final project website*/
+
+/*start of about styles*/
+
+.main {
+    margin: 0 auto;
+}
+
+.col {
+    height:890px;
+    width: 30%;
+    border: 10px solid transparent;
+    border-image: url(../img/border.png) 30 stretch;
+    float: left;
+    margin-top: 110px;
+    margin-left: 16px;
+    padding: 5px;
+    margin-bottom: 25px;
+}
+
+.col-1{
+    margin-top: 146px;
+}
+
+.col h2 {
+    text-align: center;
+    background-color: #7a4501;
+    color: wheat;
+}
+
+.col p {
+    text-align: center;
+}
+
+.meat {
+    height: 320px;
+    width: 86%;
+    margin-left: 7%;
+    margin-top: 23px;
+}
+
+audio {
+    margin-left: 42px;
+    display: inline-block;
+    width: 500px;
+}
+
+/*start of contact styles*/
+.contact-info {
+    margin-top: 120px;
+}
+
+.row {
+    width: 100%;
+
+}
+
+.map, .form {
+    padding: 15px;
+    border: 3px solid black;
+}
